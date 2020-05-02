@@ -28,6 +28,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   # albo:
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
+  #new info
   ```
 
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
@@ -47,7 +48,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
