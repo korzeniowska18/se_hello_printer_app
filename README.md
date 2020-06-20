@@ -37,44 +37,45 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   #new info
   ```
 
-- Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
+## Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 
-  ```
+
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
-  ```
+  $ make test
+  $ make test_cov
+  $ make test_xunit
 
-- Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
 
-  ```
-  # deaktywacja
+# Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
+
+* [aktywacja](actyvacja)
+
+$ source .venv/bin/activate
+
+* [deaktywacja](deaktywacja)
+
   $ deactivate
-  ```
 
-  ```
-  ...
+# Integracja z TravisCI:
 
-  # aktywacja
-  $ source .venv/bin/activate
-  ```
-
-- Integracja z TravisCI:
-
-  ```
-  # miejsce na twoje notatki
-  ```
-
-# Pomocnicze
+ Otwórz travis-ci.org i zaloguj się używając Twojego użytkownika githuba.
+ Dodaj secret z pomocą CLI travis-a:
 
 ## Ubuntu
 
-- Instalacja dockera: [dockerce howto](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- Instalacja dockera: [dockerce howto](https://docs.docker.com/install/linux/docker-ce/ubuntu/):
+
+docker_build
+docker_run
+docker_push
+docker_stop
+docker images
 
 ## Centos
 
 - Instalacja docker-a:
 
-  ```
   $ yum remove docker \
         docker-common \
         container-selinux \
@@ -90,7 +91,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum makecache fast
   $ yum install -y docker-ce
   $ systemctl start docker
-  
+
   # Monitoring Reports:
 
   * [created Test HTTP in statuscake.com](created-Test-HTTP-in-www.statuscake.com)
