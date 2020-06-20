@@ -3,6 +3,10 @@
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
+## Testukemy aplikacje "Hello World"
+
+![Hello World](./image/index.png)
+
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
   ```
@@ -20,13 +24,15 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   Sprawdź: [tutorial venv](https://docs.python.org/3/tutorial/venv.html) oraz [biblioteki flask](http://flask.pocoo.org).
 
-- Uruchamianie applikacji:
+## Uruchamianie applikacji:
 
-  ```
-  # jako zwykły program
+
+  * [jako zwykły program](jako-zwykły-program)
+
   $ python main.py
 
-  # albo:
+  * [albo](albo):
+
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
   #new info
   ```
