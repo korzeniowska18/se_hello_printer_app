@@ -5,7 +5,6 @@ python:
 - "3.6"
 install:
 - make deps
-- pip install pytest-cov==4.6.0
 - pip install -r test_requirements.txt
 script:
 - make test
