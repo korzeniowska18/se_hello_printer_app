@@ -3,7 +3,7 @@
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
-## Testujemy aplikacje "Hello World"
+## Testujemy aplikację "Hello World"
 
 ![Hello World](./image/indeks.png)
 
