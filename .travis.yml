@@ -16,3 +16,7 @@ script:
   - make lint
   - make docker_build
   - make docker_push
+deploy:
+  provider: heroku
+  app: stark-basin-35443
+  api_key: ${HEROKU_API_KEY}
