@@ -5,7 +5,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 ## Testujemy aplikacje "Hello World"
 
-![Hello World](./image/index.png)
+![Hello World](./image/indeks.png)
 
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
