@@ -85,9 +85,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
-  #Monitoring Reports
+  # Monitoring Reports
 
-  $ go to statuscake.com
-  $ created Test HTTP
-  Test Results:
+  # created Test HTTP in statuscake.com
+  # Test Results:
+
   <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=RD6iqYHdjI&Days=1&Design=1" /></a>
