@@ -85,13 +85,15 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
-  # Monitoring Reports
+  ## Monitoring Reports:
 
-  # created Test HTTP in statuscake.com
-  # Test Results:
+  * [created Test HTTP in statuscake.com](created-Test-HTTP-in-www.statuscake.com)
+  * [Status for application in TravisCI](Status-for-application-in-TravisCI)
+
+  ## Test Results:
 
   <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=RD6iqYHdjI&Days=1&Design=1" /></a>
 
-  # Status for application in TravisCI:
+  ## Status for application in TravisCI:
 
   [![Build Status](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app.svg?branch=master)](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app)
