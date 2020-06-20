@@ -62,17 +62,17 @@ $ source .venv/bin/activate
 
 ## Ubuntu
 
-- Instalacja dockera: [dockerce howto](https://docs.docker.com/install/linux/docker-ce/ubuntu/):
+# Instalacja dockera (https://docs.docker.com/install/linux/docker-ce/ubuntu/):
 
-docker_build
-docker_run
-docker_push
-docker_stop
-docker images
+* [docker_build](docker_buil)
+* [docker_run](docker_run)
+* [docker_push](docker_push)
+* [docker_stop](docker_stop)
+* [docker images](docker-images)
 
 ## Centos
 
-- Instalacja docker-a:
+# Instalacja docker-a:
 
   $ yum remove docker \
         docker-common \
