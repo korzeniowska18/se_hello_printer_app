@@ -91,3 +91,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # Test Results:
 
   <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=RD6iqYHdjI&Days=1&Design=1" /></a>
+
+  # Status for application in TravisCI:
+
+  [![Build Status](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app.svg?branch=master)](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app)
