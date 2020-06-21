@@ -19,7 +19,7 @@ pipeline {
                             skipNoTestFiles: false,
                             stopProcessingIfError: true)
                   ]
-        }
+             }
         }
         stage('Lint') {
             steps {
@@ -27,3 +27,4 @@ pipeline {
             }
         }
     }
+}
