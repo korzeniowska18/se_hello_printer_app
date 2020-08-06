@@ -46,7 +46,7 @@ Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 ```
 
 Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
-```
+
 * [aktywacja](actyvacja)
 ```
 $ source .venv/bin/activate
@@ -65,9 +65,13 @@ Integracja z TravisCI:
 Instalacja dockera (https://docs.docker.com/install/linux/docker-ce/ubuntu/):
 ```
 $ docker_build
+
 $ docker_run
+
 $ docker_push
+
 $ docker_stop
+
 $ docker images
 ```
 Centos
