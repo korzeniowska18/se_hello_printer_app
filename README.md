@@ -35,18 +35,18 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   $ PYTHONPATH=. FLASK_APP=hello_world flask run
 
-## Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
+Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 
-
+```
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   $ make test
   $ make test_cov
   $ make test_xunit
+```
 
-
-# Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
-
+Kontynuując pracę z projektem, aktywowanie hermetycznego środowiska dla aplikacji py:
+```
 * [aktywacja](actyvacja)
 
 $ source .venv/bin/activate
@@ -54,7 +54,7 @@ $ source .venv/bin/activate
 * [deaktywacja](deaktywacja)
 
   $ deactivate
-
+```
 Integracja z TravisCI:
 ```
  Otwórz travis-ci.org i zaloguj się używając Twojego użytkownika githuba.
@@ -95,10 +95,10 @@ Instalacja docker-a:
   * [created Test HTTP in statuscake.com](created-Test-HTTP-in-www.statuscake.com)
   * [Status for application in TravisCI](Status-for-application-in-TravisCI)
 
-  Test Results:
-```
+  # Test Results:
+
   <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=RD6iqYHdjI&Days=1&Design=1" /></a>
-```
+
   # Status for application in TravisCI:
 
   [![Build Status](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app.svg?branch=master)](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app)
