@@ -55,25 +55,25 @@ $ source .venv/bin/activate
 
   $ deactivate
 
-# Integracja z TravisCI:
-
+Integracja z TravisCI:
+```
  Otwórz travis-ci.org i zaloguj się używając Twojego użytkownika githuba.
  Dodaj secret z pomocą CLI travis-a:
-
+```
 ## Ubuntu
 
-# Instalacja dockera (https://docs.docker.com/install/linux/docker-ce/ubuntu/):
-
+Instalacja dockera (https://docs.docker.com/install/linux/docker-ce/ubuntu/):
+```
 * [docker_build](docker_buil)
 * [docker_run](docker_run)
 * [docker_push](docker_push)
 * [docker_stop](docker_stop)
 * [docker images](docker-images)
+```
+Centos
 
-## Centos
-
-# Instalacja docker-a:
-
+Instalacja docker-a:
+```
   $ yum remove docker \
         docker-common \
         container-selinux \
@@ -89,16 +89,16 @@ $ source .venv/bin/activate
   $ yum makecache fast
   $ yum install -y docker-ce
   $ systemctl start docker
-
-  # Monitoring Reports:
+```
+  Monitoring Reports:
 
   * [created Test HTTP in statuscake.com](created-Test-HTTP-in-www.statuscake.com)
   * [Status for application in TravisCI](Status-for-application-in-TravisCI)
 
-  # Test Results:
-
+  Test Results:
+```
   <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=RD6iqYHdjI&Days=1&Design=1" /></a>
-
+```
   # Status for application in TravisCI:
 
   [![Build Status](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app.svg?branch=master)](https://www.travis-ci.org/korzeniowska18/se_hello_printer_app)
